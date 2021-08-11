@@ -1,0 +1,4 @@
+name:技术企业默认
+author:dedecms
+type:企业
+date:2009年7月

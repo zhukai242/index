@@ -1,0 +1,2 @@
+<div class="home_title"><a href="[field:typelink /]" target="_blank"><img src="/skin/img/t_service.jpg" width="262" height="78" alt="[field:typename /]" /></a></div>
+    <div class="service_text">[field:description/]</div>

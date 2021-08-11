@@ -1,0 +1,1 @@
+<a class="sub" href="[field:typelink /]">[field:typename /]</a>

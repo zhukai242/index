@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <meta name="author" content="order by dedecms51.com" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+      
+        <link href="/skin/css/style.css" type="text/css" rel="stylesheet" />
+        <script src="/skin/js/base.js" type="text/javascript"></script><script src="/skin/js/jquery.superslide.2.1.source.js" type="text/javascript"></script><script src="/skin/js/service.js" type="text/javascript"></script><!--[if lt IE 9]><script type="text/javascript" src="/skin/js/respond.min.js" ></script><![endif]-->
+        </head>
+        <body>
+        {dede:include filename="head.htm"/}
+        <script type="text/javascript">document.getElementById("menu4").className = "on";</script><!--banner-->
+        <div class="inside_banner_service"></div>
+        <div class="ser_project">
+          <div class="home_title"><img src="/skin/img/s01.png" alt="网站定制"/></div>
+          <ul class="fix">
+          {dede:arclist   typeid='33' row='4'  orderby ='id'}
+            <li><img src="[field:picname/]" alt="[field:title/]" />
+              <div class="blur_shade">
+                <h4>[field:title/]</h4>
+                <p class="text">[field:description function="cn_substr(@me,100)"/]</p>
+              </div>
+            </li>
+           {/dede:arclist} 
+           
+          </ul>
+        </div>
+        <div class="ser_scope">
+          <div class="home_title"><img src="/skin/img/s06.png" alt="定制网站" /></div>
+          <div class="picScroll-left">
+            <div class="hd"><a class="prev btn"><</a><a class="next btn">></a></div>
+            <div class="bd">
+              <ul class="picList">
+                <li>
+                  <ul class="fix picBox">
+                   {dede:arclist idlist='42'}
+                    <li class="s1"><img src="[field:picname/]" alt="[field:title/]"  />
+                      <div class="ser_info">
+                        <h2>[field:title/]</h2>
+                        <div class="ser_shade"></div>
+                      </div>
+                    </li>
+                    {/dede:arclist}
+                    {dede:arclist  idlist='42'}
+                    <li class="s2"><img src="/skin/img/s08.jpg" alt="[field:title/]"  />
+                      <p class="intro">[field:description function="cn_substr(@me,320)"/]...</p>
+                    </li>
+                    {/dede:arclist}
+                     {dede:arclist idlist='43'}
+                    <li class="s3"><img src="[field:picname/]" alt="[field:title/]"  />
+                      <div class="ser_info">
+                        <h2>[field:title/]</h2>
+                        <div class="ser_shade"></div>
+                      </div>
+                    </li>
+                    {/dede:arclist}
+                    {dede:arclist  idlist='43'}
+                    <li class="s4"><img src="/skin/img/s08.jpg" alt="[field:title/]"  />
+                      <p class="intro">[field:description function="cn_substr(@me,320)"/]...</p>
+                    </li>
+                    {/dede:arclist}
+                     {dede:arclist idlist='44'}
+                    <li class="s5"><img src="[field:picname/]" alt="[field:title/]"  />
+                      <div class="ser_info">
+                        <h2>[field:title/]</h2>
+                        <div class="ser_shade"></div>
+                      </div>
+                    </li>
+                    {/dede:arclist}
+                    {dede:arclist  idlist='44'}
+                    <li class="s6"><img src="/skin/img/s08.jpg" alt="[field:title/]"  />
+                      <p class="intro">[field:description function="cn_substr(@me,320)"/]...</p>
+                    </li>
+                    {/dede:arclist}
+                   
+                  </ul>
+                </li>
+                <li>
+                  <ul class="fix picBox">
+                    {dede:arclist idlist='45'}
+                    <li class="s1"><img src="[field:picname/]" alt="[field:title/]"  />
+                      <div class="ser_info">
+                        <h2>[field:title/]</h2>
+                        <div class="ser_shade"></div>
+                      </div>
+                    </li>
+                    {/dede:arclist}
+                    {dede:arclist  idlist='45'}
+                    <li class="s2"><img src="/skin/img/s08.jpg" alt="[field:title/]"  />
+                      <p class="intro">[field:description function="cn_substr(@me,320)"/]...</p>
+                    </li>
+                    {/dede:arclist}{dede:arclist idlist='46'}
+                    <li class="s3"><img src="[field:picname/]" alt="[field:title/]"  />
+                      <div class="ser_info">
+                        <h2>[field:title/]</h2>
+                        <div class="ser_shade"></div>
+                      </div>
+                    </li>
+                    {/dede:arclist}
+                    {dede:arclist  idlist='46'}
+                    <li class="s4"><img src="/skin/img/s08.jpg" alt="[field:title/]"  />
+                      <p class="intro">[field:description function="cn_substr(@me,320)"/]...</p>
+                    </li>
+                    {/dede:arclist}{dede:arclist idlist='47'}
+                    <li class="s5"><img src="[field:picname/]" alt="[field:title/]"  />
+                      <div class="ser_info">
+                        <h2>[field:title/]</h2>
+                        <div class="ser_shade"></div>
+                      </div>
+                    </li>
+                    {/dede:arclist}
+                    {dede:arclist  idlist='47'}
+                    <li class="s6"><img src="/skin/img/s08.jpg" alt="[field:title/]"  />
+                      <p class="intro">[field:description function="cn_substr(@me,320)"/]...</p>
+                    </li>
+                    {/dede:arclist}
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="ser_process">
+          <div class="home_title"><img src="/skin/img/s14.jpg" alt="网站制作流程" width="232" height="53"/></div>
+          {dede:arclist    typeid='35'  row='1'}
+          <div class="wrap sp_box"><img src="[field:picname/]" alt="[field:title/]" /></div>
+          {/dede:arclist}
+        </div>
+        {dede:include filename="footer.htm"/}
+        {dede:include filename="right.htm"/}
+        <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd8344b6a8c16d55b7dabce090ed226b7' type='text/javascript'%3E%3C/script%3E"));
+</script>
+        <div style="display:none"><script src="/skin/js/stat.js" language="JavaScript"></script></div>
+<!--技术无忧模板网（dedecms51.com）做最好的技术整站模板下载网站--> </body>
+</html>

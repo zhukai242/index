@@ -1,0 +1,48 @@
+<?php
+$z[0]=Array("global","",208,234);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",287,317);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",354,381);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",817,843);
+$z[3][4]['name']="cfg_webname";
+$z[4]=Array("global","",962,988);
+$z[4][4]['name']="cfg_webname";
+$z[5]=Array("include","",1176,1215);
+$z[5][4]['filename']="header_m.htm";
+$z[6]=Array("type"," <a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_t_service.jpg\" class=\"width100\" alt=\"[field:typename/]\" /></a>",2921,3085);
+$z[6][4]['typeid']="13";
+$z[7]=Array("type","\r\n    <dl class=\"f\">\r\n      <dt><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_service_1.jpg\" alt=\"[field:typename/]\" class=\"width100\" /></a></dt>\r\n      <dd class=\"t\"><a href=\"list.php?tid=[field:id/]\" class=\"f28\"><em class=\"f28\">01</em>品牌官网设计</a></dd>\r\n      <dd class=\"spec\"><a href=\"list.php?tid=[field:id/]\" class=\"f24\">策划、设计、前端、后台<br>\r\n        设计师一对一沟通</a></dd>\r\n      <dd class=\"btn\"><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_btn_service.jpg\" alt=\"点击查看\" class=\"width100\" /></a></dd>\r\n    </dl>\r\n    ",3123,3765);
+$z[7][4]['typeid']="33";
+$z[8]=Array("type","\r\n    <dl>\r\n      <dt><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_service_2.jpg\" alt=\"[field:typename/]\" class=\"width100\" /></a></dt>\r\n      <dd class=\"t\"><a href=\"list.php?tid=[field:id/]\" class=\"f28\"><em class=\"f28\">02</em>商城网站建设</a></dd>\r\n      <dd class=\"spec\"><a href=\"list.php?tid=[field:id/]\" class=\"f24\">专业量身定制策划设计<br>\r\n        拥有资深研发团队</a></dd>\r\n      <dd class=\"btn\"><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_btn_service.jpg\" alt=\"点击查看\" class=\"width100\" /></a></dd>\r\n    </dl>\r\n    ",3778,4406);
+$z[8][4]['typeid']="6";
+$z[9]=Array("type","\r\n    <dl class=\"f\">\r\n      <dt><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_service_3.jpg\" alt=\"[field:typename/]\" class=\"width100\" /></a></dt>\r\n      <dd class=\"t\"><a href=\"list.php?tid=[field:id/]\" class=\"f28\"><em class=\"f28\">03</em>手机\\微信网站建设</a></dd>\r\n      <dd class=\"spec\"><a href=\"list.php?tid=[field:id/]\" class=\"f24\">个性设计，独一无二<br>\r\n        零成本增加微信网站</a></dd>\r\n      <dd class=\"btn\"><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_btn_service.jpg\" alt=\"点击查看\" class=\"width100\" /></a></dd>\r\n    </dl>\r\n    ",4419,5065);
+$z[9][4]['typeid']="14";
+$z[10]=Array("type","\r\n    <dl>\r\n      <dt><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_service_4.jpg\" alt=\"[field:typename/]\" class=\"width100\" /></a></dt>\r\n      <dd class=\"t\"><a href=\"list.php?tid=[field:id/]\" class=\"f28\"><em class=\"f30\">04</em>高端网站定制</a></dd>\r\n      <dd class=\"spec\"><a href=\"list.php?tid=[field:id/]\" class=\"f24\">逻辑可行就能帮你实现<br>\r\n        国内最好定制公司</a></dd>\r\n      <dd class=\"btn\"><a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_btn_service.jpg\" alt=\"点击查看\" class=\"width100\" /></a></dd>\r\n    </dl>\r\n    ",5078,5707);
+$z[10][4]['typeid']="15";
+$z[11]=Array("type"," <a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_t_case.jpg\" class=\"width100\" alt=\"[field:typename/]\" /></a>",5808,5968);
+$z[11][4]['typeid']="6";
+$z[12]=Array("arclist","\r\n    <dl>\r\n      <dt><a href=\"view.php?aid=[field:id/]\"><img src=\"[field:picname/]\" alt='[field:title/]' class=\"width100\"/></a></dt>\r\n      <dd><a href=\"view.php?aid=[field:id/]\" class=\"f24\">[field:title/]</a></dd>\r\n    </dl>\r\n    ",6003,6315);
+$z[12][4]['typeid']="6";
+$z[12][4]['row']="8";
+$z[12][4]['titlelen']="30";
+$z[12][4]['orderby']="pubdate";
+$z[13]=Array("type"," <a href=\"list.php?tid=[field:id/]\"><img src=\"/m/skin/images/index_t_news.jpg\"  class=\"width100\" /></a>",6416,6554);
+$z[13][4]['typeid']="16";
+$z[14]=Array("arclist"," <a href=\"view.php?aid=[field:id/]\"><img alt=\"[field:title/]\" src=\"[field:picname/]\" class=\"width100\" /></a> ",6586,6772);
+$z[14][4]['typeid']="16";
+$z[14][4]['row']="1";
+$z[14][4]['titlelen']="50";
+$z[14][4]['type']="image.";
+$z[15]=Array("arclist","\r\n    <dl class=\"dl[field:global.autoindex/]\">\r\n      <dt onClick=\"show_more('1')\"><a href=\"javascript:void(0)\" class=\"f24\"><span class=\"f28\">+</span>[field:title/]</a></dt>\r\n      <dt class=\"t\"><a href=\"view.php?aid=[field:id/]\" class=\"f24\"><span class=\"f28\">-</span>[field:title/]</a></dt>\r\n      <dd class=\"spec\"><a href=\"view.php?aid=[field:id/]\" class=\"f20\">[field:description function=\"cn_substr(@me,100)\"/]...</a></dd>\r\n    </dl>\r\n    ",6807,7330);
+$z[15][4]['typeid']="16";
+$z[15][4]['row']="5";
+$z[15][4]['titlelen']="50";
+$z[15][4]['orderby']="pubdate";
+$z[16]=Array("type"," <a class=\"f24\" href=\"list.php?tid=[field:id/]\">查看更多>></a>",7358,7459);
+$z[16][4]['typeid']="16";
+$z[17]=Array("include","",7490,7529);
+$z[17][4]['filename']="footer_m.htm";
+
+?>

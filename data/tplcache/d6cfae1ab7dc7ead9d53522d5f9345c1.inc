@@ -1,0 +1,1 @@
+<a href="list.php?tid=[field:id/]"><img src="/m/skin/images/index_t_case.jpg" class="width100" alt="[field:typename/]" /></a>

@@ -1,0 +1,1 @@
+<a class="f24" href="list.php?tid=[field:id/]">查看更多>></a>

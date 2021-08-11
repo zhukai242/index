@@ -1,0 +1,7 @@
+INSERT INTO `dede_taglist` VALUES('1','9','0','20','企业网站建设');
+INSERT INTO `dede_taglist` VALUES('2','10','0','20','做网站');
+INSERT INTO `dede_taglist` VALUES('3','14','0','20','微店');
+INSERT INTO `dede_taglist` VALUES('4','14','0','20','微商城');
+INSERT INTO `dede_taglist` VALUES('5','37','0','7','手机站');
+INSERT INTO `dede_taglist` VALUES('6','4','0','7','电子');
+INSERT INTO `dede_taglist` VALUES('7','4','0','7','科技');

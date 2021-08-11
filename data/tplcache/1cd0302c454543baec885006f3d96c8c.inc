@@ -1,0 +1,1 @@
+<div class="about_title"><img src="/skin/img/a01.gif" alt="[field:typename /]" /></div>

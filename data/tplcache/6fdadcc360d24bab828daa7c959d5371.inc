@@ -1,0 +1,2 @@
+<div class="succeed_title"><a href="[field:typelink /]"><img src="/skin/img/t_cases.jpg" alt="[field:typename /]" width="296" height="74" /></a></div>
+    <div class="success_text">[field:description/]</div>

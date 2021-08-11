@@ -1,0 +1,16 @@
+<div class="top_nav">
+  <ul>
+    <li><a href="index.php" class="f28">首页
+      <div><img src="/m/skin/images/ico_menu_jiantou.png" alt="官网首页" class="width100" /></div>
+      </a></li>
+    {dede:channel type='top' row='10' currentstyle="
+    <li><a href='list.php?tid=~id~' ~rel~ class='f28'><span>~typename~
+      <div><img src='/m/skin/images/ico_menu_jiantou.png' alt='[field:typename/]' class='width100' /></div>
+      </span></a> </li>
+    "}
+    <li><a href="list.php?tid=[field:id/]" class="f28">[field:typename/]
+      <div><img src="/m/skin/images/ico_menu_jiantou.png" alt="[field:typename/]" class="width100" /></div>
+      </a></li>
+    {/dede:channel}
+  </ul>
+</div>

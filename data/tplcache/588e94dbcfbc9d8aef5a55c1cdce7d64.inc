@@ -1,0 +1,1 @@
+<li style="background-image:url([field:picname/])"><a title="[field:title/]" href="[field:arcurl/]"></a></li>

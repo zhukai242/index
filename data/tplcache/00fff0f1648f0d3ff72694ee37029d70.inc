@@ -1,0 +1,1 @@
+<div class="wrap sp_box"><img src="[field:picname/]" alt="[field:title/]" /></div>

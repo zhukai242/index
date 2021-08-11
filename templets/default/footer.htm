@@ -1,0 +1,54 @@
+<footer class="footer">
+  <div class="contact">
+    <div class="wrap">
+      <div class="home_about fl">
+        <dl>
+          {dede:type typeid='1'}
+          <dt><a href="[field:typelink /]">[field:typename /]</a></dt>
+          {/dede:type}
+          <dd>{dede:sql sql='Select * from dede_arctype where id=1'}
+            [field:content function="cn_substr('@me',320)" /]
+            {/dede:sql} </dd>
+          {dede:type typeid='1'}
+          <dd><a href="[field:typelink /]" class="more">查看更多 >></a></dd>
+          {/dede:type}
+        </dl>
+      </div>
+      <div class="home_case fl">{dede:type typeid='6'}
+        <h2><a href="[field:typelink /]">最新案例</a></h2>
+        {/dede:type}
+        <ul>
+          {dede:arclist  typeid='6'  row='2'  titlelen='80' }
+          <li><a href="[field:arcurl/]" target="_blank"><img src="[field:picname/]" alt="[field:title/]" width="80" height="52"/></a>
+            <h5><a href="[field:arcurl/]" target="_blank">[field:title/]</a></h5>
+            <p class="text"><a href="[field:arcurl/]" target="_blank">[field:description function="cn_substr(@me,30)"/]...</a></p>
+          </li>
+          {/dede:arclist}
+        </ul>
+      </div>
+      <div class="home_service fl"> {dede:type typeid='13'}
+        <h2><a href="[field:typeurl /]">[field:typename /]</a></h2>
+        {/dede:type}
+        {dede:type typeid='28'} <a class="sub" href="[field:typelink /]">[field:typename /]</a> {/dede:type} {dede:type typeid='31'} <a class="sub" href="[field:typelink /]">[field:typename /]</a> {/dede:type}  {dede:type typeid='14'} <a class="sub" href="[field:typelink /]">手机网站设计</a> {/dede:type}
+        {dede:type typeid='14'} <a class="sub" href="[field:typelink /]">微信网站建设</a> {/dede:type}{dede:type typeid='15'} <a class="sub" href="[field:typelink /]">其他网站定制</a> {/dede:type} </div>
+      <div class="home_contact fl"> {dede:type typeid='27'}
+        <h2><a href="[field:typeurl /]">[field:typename /]</a></h2>
+        {/dede:type}
+        <ul>
+          <li><i class="addres"></i>地    址：{dede:global.cfg_dizhi/}</li>
+          <li><i class="weibo"></i>Q    Q：<a target="_blank" rel="nofollow" href="http://wpa.qq.com/msgrd?v=3&amp;uin={dede:global.cfg_beian/}&amp;site=qq&amp;menu=yes">{dede:global.cfg_qq/}</a></li>
+          <li><i class="email"></i>邮    箱：<a target="_blank" rel="nofollow" href="mailto:{dede:global.cfg_email/}">{dede:global.cfg_email/}</a></li>
+          <li><i class="call"></i>电    话：{dede:global.cfg_dianhua/}</li>
+          {dede:type typeid='29'}
+          <li><i class="weixin"></i><a href="[field:typelink /]">[field:typename /]</a></li>
+          {/dede:type}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="blogroll">
+    <div class="wrap"> 友情链接： {dede:flink titlelen='80' row='24' type='text'}  [field:link /]  {/dede:flink}
+      <p class="copyright">{dede:global.cfg_powerby/}  {dede:global.cfg_beian/}</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,1 @@
+<div class="case_t_title">[field:typename /]</div>

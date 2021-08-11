@@ -1,0 +1,2 @@
+<div class="home_partner_title"><a  target="_blank"><img src="/skin/img/t_kehu.jpg" alt="[field:typename /]" width="372" height="73" /></a></div>
+    <div class="home_partner_text">[field:description/]</div>

@@ -1,0 +1,5 @@
+INSERT INTO `dede_flink` VALUES('2','1','https://www.njrrxx.com','南京微人人信息技术有限公司','','','','1226375403','1','2');
+INSERT INTO `dede_flink` VALUES('9','3','https://www.njrrxx.com/host/','技术主机','','','','1227772717','1','2');
+INSERT INTO `dede_flink` VALUES('8','2','http://www.njrrxx.cn','自适应网站技术','','','','1227772703','1','2');
+INSERT INTO `dede_flink` VALUES('10','1','https://www.njrrxx.com','技术模板','','','','1467614323','1','2');
+INSERT INTO `dede_flink` VALUES('11','1','https://www.njrrxx.com/','响应式技术模板','','','','1467614332','1','2');

@@ -1,0 +1,1 @@
+<h2><a href="[field:typelink /]">最新案例</a></h2>

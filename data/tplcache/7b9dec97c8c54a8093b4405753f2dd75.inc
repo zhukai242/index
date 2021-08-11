@@ -1,0 +1,1 @@
+<a class="f30" href="list.php?tid=[field:id/]">[field:typename/]</a>
