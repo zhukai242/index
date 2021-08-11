@@ -4057,7 +4057,7 @@ INSERT INTO `#@__sysconfig` VALUES('1','cfg_basehost','站点根网址','1','str
 ('72','cfg_mb_pwdtype','前台密码验证类型：默认32 — 32位md5，可选：<br />l16 — 前16位， r16 — 后16位， m16 — 中间16位','4','string','32'),
 ('716','cfg_cache_type','id 文档ID，content 标签最终内容<br />(修改此变量后必须更新系统缓存)','6','string','id'),
 ('717','cfg_max_face','会员上传头像大小限制(单位：KB)','3','number','50'),
-('718','cfg_typedir_df','栏目网址使用目录名（不显示默认页，即是 /a/abc/ 形式）','2','bool','Y'),
+('718','cfg_typedir_df','栏目网址使用目录名（不显示默认页，即是 /index/a/abc/ 形式）','2','bool','Y'),
 ('719','cfg_make_andcat','发表文章后马上更新相关栏目','6','bool','N'),
 ('720','cfg_make_prenext','发表文章后马上更新上下篇','6','bool','Y'),
 ('721','cfg_feedback_forbid','是否禁止所有评论(将包括禁止顶踩等)','5','bool','N'),

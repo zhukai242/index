@@ -1,2 +1,2 @@
-<div class="home_news_title"><a href="[field:typelink /]" target="_blank"><img src="/skin/img/t_news.jpg" alt="[field:typename /]" width="310" height="71" /></a></div>
+<div class="home_news_title"><a href="[field:typelink /]" target="_blank"><img src="/index/skin/img/t_news.jpg" alt="[field:typename /]" width="310" height="71" /></a></div>
     <div class="home_news_text">[field:description/]</div>

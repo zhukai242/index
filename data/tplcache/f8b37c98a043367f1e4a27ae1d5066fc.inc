@@ -1,1 +1,1 @@
-<li ><span class="icon"><img src="/skin/img/a2[field:global name=autoindex runphp="yes"]@me=@me-1;[/field:global].jpg" alt="[field:title/]"/></span><span class="post">[field:title/]</span></li>
+<li ><span class="icon"><img src="/index/skin/img/a2[field:global name=autoindex runphp="yes"]@me=@me-1;[/field:global].jpg" alt="[field:title/]"/></span><span class="post">[field:title/]</span></li>

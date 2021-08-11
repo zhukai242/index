@@ -1,1 +1,1 @@
-<div class="about_title"><img src="/skin/img/a01.gif" alt="[field:typename /]" /></div>
+<div class="about_title"><img src="/index/skin/img/a01.gif" alt="[field:typename /]" /></div>

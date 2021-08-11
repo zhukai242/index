@@ -58,8 +58,8 @@ else if($dopost=="saveedit")
 	$logoimg = $request->Upfile('logoimg', '');
 	if(!empty($logoimg))
 	{
-		$request->MoveUploadFile('logoimg', DEDEROOT.'/uploads/flink/'.$request->GetFileInfo('logoimg', 'name'));
-		$logo = $cfg_cmspath.'/uploads/flink/'.$request->GetFileInfo('logoimg', 'name');
+		$request->MoveUploadFile('logoimg', DEDEROOT.'/index/uploads/flink/'.$request->GetFileInfo('logoimg', 'name'));
+		$logo = $cfg_cmspath.'/index/uploads/flink/'.$request->GetFileInfo('logoimg', 'name');
 	}
 	$sortrank = $request->Item('sortrank', 1);
 	$url = $request->Item('url', '');

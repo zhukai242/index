@@ -81,10 +81,10 @@ else if($step==2)
         '/plus/*',
         '/dede/*',
         '/data/*',
-        '/a/*',
+        '/index/a/*',
         '/install',
         '/special',
-        '/uploads/*'
+        '/index/uploads/*'
     );
     include('./templates/step-2.html');
     exit();
