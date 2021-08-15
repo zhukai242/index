@@ -31,9 +31,9 @@ $z[14]=Array("global","",2449,2473);
 $z[14][4]['name']="cfg_beian";
 $z[15]=Array("global","",2648,2677);
 $z[15][4]['name']="cfg_topdianhua";
-$z[16]=Array("type"," <a href=\"list.php?tid=[field:id/]\"><img id=\"menu_3\" src=\"/index/m/index/skin/images/nav_3.jpg\" class=\"width100\" alt=\"[field:typename/]\" /></a>",2785,2950);
+$z[16]=Array("type"," <a href=\"list.php?tid=[field:id/]\"><img id=\"menu_3\" src=\"/m/skin/images/nav_3.jpg\" class=\"width100\" alt=\"[field:typename/]\" /></a>",2785,2950);
 $z[16][4]['typeid']="6";
-$z[17]=Array("type"," <a href=\"list.php?tid=[field:id/]\"><img id=\"menu_4\" src=\"/index/m/index/skin/images/nav_4.jpg\" class=\"width100\" alt=\"[field:typename/]\" /></a>",2966,3132);
+$z[17]=Array("type"," <a href=\"list.php?tid=[field:id/]\"><img id=\"menu_4\" src=\"/m/skin/images/nav_4.jpg\" class=\"width100\" alt=\"[field:typename/]\" /></a>",2966,3132);
 $z[17][4]['typeid']="16";
 
 ?>

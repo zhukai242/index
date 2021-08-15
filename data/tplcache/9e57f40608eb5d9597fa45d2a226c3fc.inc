@@ -1,1 +1,1 @@
-<a href="list.php?tid=[field:id/]"><img id="menu_4" src="/index/m/index/skin/images/nav_4.jpg" class="width100" alt="[field:typename/]" /></a>
+<a href="list.php?tid=[field:id/]"><img id="menu_4" src="/m/skin/images/nav_4.jpg" class="width100" alt="[field:typename/]" /></a>
